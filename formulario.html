@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body> 
+        <header>
+            <h1>Mi primera WEB de Lenguajes de marcas</h1>
+            <h2>Menu:</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="horario.html">Horario</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+        <main>
+            
+
+            <form>
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <h2>Formulario de contacto</h2>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    <label for="contraseña">contraseña:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+                    <label for="web">Sitio web:</label>
+                    <input type="url" id="web" name="web"><br><br>
+                    <label for="buscar">Buscar:</label>
+                    <input type="search" id="buscar" name="buscar"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Fecha y Horas</legend>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha"><br><br>
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" name="hora"><br><br>
+                    <label for="fechaHora">Fecha y Hora:</label>
+                    <input type="datetime-local" id="fechaHora" name="fechaHora"><br><br>
+                    <label for="mes">Mes:</label>
+                    <input type="month" id="mes" name="mes"><br><br>
+                    <label for="semana">Semana:</label>
+                    <input type="week" id="semana" name="semana"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend> Valores numéricos</legend>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="0" max="120"><br><br>
+                    <label for="valor">Nivel:</label>
+                    <input type="range" id="valor" name="valor" step="0.01"><br><br>
+                    <label for="color">Color Favorito:</label>
+                    <input type="color" id="color" name="color"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Opciones</legend>
+                    <p>Selecciona una opción:</p>
+                    <input type="radio" id="opcion1" name="opcion" value="opcion1">
+                    <label for="opcion1">Opción 1</label><br>
+                    <input type="radio" id="opcion2" name="opcion" value="opcion2">
+                    <label for="opcion2">Opción 2</label><br>
+                    <input type="radio" id="opcion3" name="opcion" value="opcion3">
+                    <label for="opcion3">Opción 3</label><br>
+                    <p>Selecciona tus aficiones:</p>
+                    <input type="checkbox" id="aficion1" name="aficiones" value="videojuegos">
+                    <label for="aficion1">Videojuegos</label><br>
+                    <input type="checkbox" id="aficion2" name="aficiones" value="Musica">
+                    <label for="aficion2">Musica</label><br>
+                    <input type="checkbox" id="aficion3" name="aficiones" value="Futbol">
+                    <label for="aficion3">Futbol</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Listas</legend>
+                    <p>
+                    <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="provincia">
+                        <option value="">Seleccionar una provincia</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="sevilla">Sevilla</option>
+                    </select>
+                    </p>
+                    <label for="estudios">Estudios:</label>
+                    <select id="estudios" name="estudios">
+                        <optgroup label="Informatica">
+                            <option value="dam">DAM</option>
+                            <option value="bachillerato">Bachillerato</option>
+                </fieldset>
+            </form>
+        </main>
+
+    <footer>
+        <p>CIFP Virgen de Gracia</p>
+    </footer>
+    </body> 
+</html>

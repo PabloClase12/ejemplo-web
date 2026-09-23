@@ -1,0 +1,33 @@
+
+   header{
+        background-color: blue;
+        padding: 1em;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+    }
+    footer{
+         background-color: blue;
+        padding: 1em;
+        color: white;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    thead{
+        background-color: yellow;
+        color: black;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    th, td{
+        border: 1px solid white;
+        padding: 8px;
+        text-align: right;
+    }
+
+    .fdh{
+        background-color: red;
+        }

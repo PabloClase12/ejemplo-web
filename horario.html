@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+  <!-- Información del documento HTML -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Horario</title>
+
+    <!-- en esta linea se enlaza el archivo de estilo (CSS)-->
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <!--------BODY--(CUERPO)----------------------------------------------------->
+  <body>
+    <!-- HEADER (ENCABEZADO)-->
+    <header>
+      <h1>Mi primera WEB de Lenguajes de marcas</h1>
+      <h2>Menu:</h2>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="horario.html">Horario</a>
+        <a href="formulario.html">Formulario</a>
+      </nav>
+    </header>
+
+    <!-- MAIN (CONTENIDO)-->
+    <main>
+      <h2>Horario Semanal</h2>
+      <table>
+        <thead>
+          <!-- 1ª fila (Días de la semana) -->
+          <tr>
+            <td></td>
+
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- 2º Fila (1ª hora) -->
+          <tr>
+            <td>8:30- 9:25</td>
+
+            <td class="fdh">Fundamentos de hardware</td>
+            <td>Sostenibilidad</td>
+            <td rowspan="2">Lenguajes de marcas</td>
+            <td>Inglés</td>
+            <td rowspan="2">Planificación y administración de redes</td>
+          </tr>
+
+          <!-- 3º Fila (2ª hora) -->
+          <tr>
+            <td>9:25-10:20</td>
+
+            <td rowspan="2">IPE</td>
+            <td>IPE</td>
+            <!-- Miércoles ya está cubierto por el rowspan de arriba -->
+            <Td rowspan="2">Implantación de sistemas operativos</td>
+            <!-- Viernes ya está cubierto por el rowspan de arriba -->
+          </tr>
+
+          <!-- 4º Fila (3ª hora) -->
+          <tr>
+            <td>10:20-11:15</td>
+
+            <!-- ya está cubierto por el rowspan de arriba -->
+            <td>BBDD</td>
+            <td>Planificación y administración de redes</td>
+            <td>Fundamentos de hardware</td>
+            <!-- ya está cubierto por el rowspan de arriba -->
+          </tr>
+
+          <!-- 5º Fila (Recreo) -->
+          <tr>
+            <td>11:15-11:45</td>
+
+            <td colspan="5">R E C R E O</td>
+            <!-- el resto de las celdas las completa el colspan anterior -->
+          </tr>
+
+          <!-- 6º Fila (4ª hora) -->
+          <tr>
+            <td>11:45-12:40</td>
+
+            <td>Inglés</td>
+            <td>BBDD</td>
+            <td>Planificación y administración de redes</td>
+            <td rowspan="2">BBDD</td>
+            <td>Fundamentos de hardware</td>
+          </tr>
+
+          <!-- 7º Fila (5ª hora) -->
+          <tr>
+            <td>12:40-13:35</td>
+
+            <td rowspan="2">Implantación de sistemas operativos</td>
+            <td>Proyecto intermodular</td>
+            <td rowspan="2">Digitalización</td>
+            <!-- ya está cubierto por el rowspan de arriba -->
+            <td rowspan="2">Implantación de sistemas operativos</td>
+          </tr>
+
+          <!-- 8º Fila (6ª hora) -->
+          <tr>
+            <td>13:35-14:30</td>
+
+            <!-- ya está cubierto por el rowspan de arriba -->
+            <td>Planificación y administración de redes</td>
+            <!-- ya está cubierto por el rowspan de arriba -->
+            <td>Lenguajes de marcas</td>
+            <!-- ya está cubierto por el rowspan de arriba -->
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- FOOTER (PIE DE PÁGINA)-->
+    <footer>
+      <p>CIFP Virgen de Gracia</p>
+      <p>
+        Contacto:
+        <a href="mailto:pariasm04@educastillalamancha.es"
+          >pariasm04@educastillalamancha.es</a
+        >
+      </p>
+    </footer>
+    <!--------------------------------------------------------------->
+  </body>
+</html>
