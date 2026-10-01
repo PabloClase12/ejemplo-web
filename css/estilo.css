@@ -1,13 +1,28 @@
 
+a, a:link, a:visited {
+  color: #1a73e8 !important;  
+  text-decoration: none;       
+  background-color: transparent;
+}
+
+a:hover {
+  color: #1557b0 !important;   
+  text-decoration: underline;  
+}
+
+a:active {
+  color: #1557b0 !important;   
+}
+
    header{
-        background-color: blue;
+        background-color: purple;
         padding: 1em;
         color: white;
         text-align: center;
         font-size: 14px;
     }
     footer{
-         background-color: blue;
+         background-color: purple;
         padding: 1em;
         color: white;
         text-align: center;
@@ -31,3 +46,4 @@
     .fdh{
         background-color: red;
         }
+    
