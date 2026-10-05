@@ -1,17 +1,17 @@
 
 a, a:link, a:visited {
-  color: purple !important;  
+  color: green !important;  
   text-decoration: none;       
   background-color: transparent;
 }
 
 a:hover {
-  color: purple !important;   
+  color: green !important;   
   text-decoration: underline;  
 }
 
 a:active {
-  color: purple !important;   
+  color: green !important;   
 }
 
    header{
@@ -44,7 +44,7 @@ a:active {
     }
 
     .fdh{
-        background-color: red;
+        background-color: purple;
         }
     img{
         width: 200px;
