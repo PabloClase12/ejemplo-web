@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="script/juego.css">
+    <link rel="stylesheet" href="css/juego.css">
+    <script src="script/juego.js"></script>
     <title>juego</title>
 </head>
 <body>
-    <div id="pantalla"></div>
-    <button onclick="PiedraPapelTijera('piedra', 'tijera')">Piedra</button>
-    <button onclick="PiedraPapelTijera('papel', 'papel')">Papel</button>
-    <button onclick="PiedraPapelTijera('tijera', 'piedra')">Tijera</button>
-    <script src="script/Juego.js"></script>
-    
+    <button class="btn" onclick="PiedraPapelTijera('piedra')">Piedra</button>
+    <button class="btn" onclick="PiedraPapelTijera('papel')">Papel</button>
+    <button class="btn" onclick="PiedraPapelTijera('tijera')">Tijera</button>
+    <p id="mensaje"></p>
+    <p id="marcador"></p>
+    <p id="ganadas"></p>
+    <p id="perdidas"></p>
+    <p id="empatadas"></p>
+    <p id="jugada jugador"></p>
+    <p id="jugada maquina"></p>
 </body>
 </html>
