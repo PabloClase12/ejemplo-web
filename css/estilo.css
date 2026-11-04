@@ -50,3 +50,8 @@ a:active {
         width: 200px;
         height: 200px;
     }
+    button{
+        background-color: black;
+        color: white; 
+        border: 1px solid white;
+    }

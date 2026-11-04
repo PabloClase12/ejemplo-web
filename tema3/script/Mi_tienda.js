@@ -107,7 +107,7 @@ console.log("Productos:", productos.length);
 // que el producto se ha añadido.
 
 // Escribe tu código aquí.
-productos.push("tablet");
+console.log(productos.push("tablet"));
 
 // TAREA 7.
 // Comprueba si el array contiene un producto
@@ -117,7 +117,7 @@ productos.push("tablet");
 // El resultado será true o false.
 
 // Escribe tu código aquí.
-
+console.log(productos.includes("tablet"));
 
 
 // TAREA 8.
@@ -128,7 +128,7 @@ productos.push("tablet");
 // mediante su posición. La primera posición es 0.
 
 // Escribe tu código aquí.
-
+console.log(productos[0].toUpperCase());
 
 
 // =======================================================
