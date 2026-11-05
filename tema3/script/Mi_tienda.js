@@ -141,7 +141,7 @@ console.log("\n===== CALCULAR UNA COMPRA =====");
 // Crea una variable llamada unidadesCompradas
 // y guarda cuántas unidades quiere comprar
 // un cliente.
-
+let unidadesCompradas = 4;
 // Crea otra variable llamada totalCompra
 // y calcula el precio total multiplicando
 // el precio del producto por las unidades.
@@ -153,7 +153,7 @@ console.log("\n===== CALCULAR UNA COMPRA =====");
 // / división
 
 // Escribe tu código aquí.
-
+let totalCompra = precio * unidadesCompradas;;
 
 
 // TAREA 10.
@@ -162,7 +162,8 @@ console.log("\n===== CALCULAR UNA COMPRA =====");
 
 // Escribe tu código aquí.
 
-
+console.log("Unidades compradas:", unidadesCompradas);
+console.log("Total de la compra:", totalCompra);
 
 // TAREA 11.
 // Calcula el precio de una unidad si el cliente
@@ -172,9 +173,11 @@ console.log("\n===== CALCULAR UNA COMPRA =====");
 // Pista:
 // Descuento = 4
 // Total con descuento = totalCompra - descuento
+let descuento = 4;
 
 // Escribe tu código aquí.
-
+let totalConDescuento = totalCompra - descuento;
+let precioUnidadConDescuento = totalConDescuento / 2;
 
 
 // =======================================================
@@ -194,8 +197,11 @@ console.log("\n===== COMPROBAR LA COMPRA =====");
 // "Es un producto económico".
 
 // Escribe tu código aquí.
-
-
+if (precio > 30) {
+    console.log("Es un producto caro");
+} else {
+    console.log("Es un producto económico");
+}
 
 // TAREA 13.
 // Comprueba si hay suficientes unidades en stock
@@ -209,7 +215,11 @@ console.log("\n===== COMPROBAR LA COMPRA =====");
 // "No hay stock suficiente".
 
 // Escribe tu código aquí.
-
+if (stock >= unidadesCompradas) {
+    console.log("Hay stock suficiente");
+} else {
+    console.log("No hay stock suficiente");
+}
 
 
 // TAREA 14.
@@ -224,7 +234,11 @@ console.log("\n===== COMPROBAR LA COMPRA =====");
 // "El cliente no tiene descuento".
 
 // Escribe tu código aquí.
-
+if (unidadesCompradas >= 3) {
+    console.log("El cliente tiene descuento");
+} else {
+    console.log("El cliente no tiene descuento");
+}
 
 
 // =======================================================
@@ -241,14 +255,16 @@ console.log("\n===== COMPROBACIONES =====");
 // y asígnale el valor false.
 
 // Escribe tu código aquí.
-
+let tiendaAbierta = true;
+let pagoRealizado = false;
 
 
 // TAREA 16.
 // Muestra por consola los valores de ambas variables.
 
 // Escribe tu código aquí.
-
+console.log("Tienda abierta:", tiendaAbierta);
+console.log("Pago realizado:", pagoRealizado);
 
 
 // TAREA 17.
@@ -263,8 +279,11 @@ console.log("\n===== COMPROBACIONES =====");
 // En caso contrario, muestra "Pedido pendiente".
 
 // Escribe tu código aquí.
-
-
+if (tiendaAbierta && pagoRealizado) {
+    console.log("Pedido confirmado");
+} else {
+    console.log("Pedido pendiente");
+}
 
 // =======================================================
 // APARTADO 6. BUCLES
@@ -283,7 +302,9 @@ console.log("\n===== LISTA DE PRODUCTOS =====");
 // - Accede a productos[i].
 //
 // Escribe tu código aquí.
-
+for (let i = 0; i < productos.length; i++) {
+    console.log("Producto:", productos[i]);
+}
 
 
 // TAREA 19.
@@ -295,7 +316,9 @@ console.log("\n===== LISTA DE PRODUCTOS =====");
 //
 // Escribe tu código aquí.
 
-
+for (let producto of productos) {
+    console.log("Producto:", producto);
+}
 
 // TAREA 20.
 // Utiliza un bucle for para mostrar los números
@@ -309,7 +332,9 @@ console.log("\n===== LISTA DE PRODUCTOS =====");
 // Número: 5
 
 // Escribe tu código aquí.
-
+for (let i = 1; i <= 5; i++) {
+    console.log("Número:", i);
+}
 
 
 // =======================================================
@@ -327,7 +352,10 @@ console.log("\n===== FUNCIONES DE LA TIENDA =====");
 // Después, llama a la función para ejecutarla.
 
 // Escribe tu código aquí.
-
+function saludarCliente() {
+    console.log("Gracias por visitar nuestra tienda");
+}
+saludarCliente();
 
 
 // TAREA 22.
@@ -346,8 +374,12 @@ console.log("\n===== FUNCIONES DE LA TIENDA =====");
 // calcularTotal(10, 3) devuelve 30.
 
 // Escribe tu código aquí.
-
-
+function calcularTotal(precioProducto, cantidad) {
+    return precioProducto * cantidad;
+}
+let total = calcularTotal(10, 3);
+console.log("Total de la compra:", total);
+let resultadoCompra= calcularTotal(10,3);
 
 // TAREA 23.
 // Crea una función llamada comprobarStock().
@@ -365,7 +397,13 @@ console.log("\n===== FUNCIONES DE LA TIENDA =====");
 // diferentes y muestra los resultados.
 
 // Escribe tu código aquí.
-
+function comprobarStock(stockDisponible, unidadesSolicitadas){
+    if (stockDisponible >= unidadesSolicitadas) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 // =======================================================
