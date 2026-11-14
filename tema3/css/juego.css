@@ -9,20 +9,6 @@ body {
     border-radius: 10px;
     background-color: #d30e0e;
 }
-a, a:link, a:visited {
-  color: green !important;  
-  text-decoration: none;       
-  background-color: transparent;
-}
-
-a:hover {
-  color: green !important;   
-  text-decoration: underline;  
-}
-
-a:active {
-  color: green !important;   
-}
 
    header{
         background-color: blue;

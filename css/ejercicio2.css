@@ -1,0 +1,75 @@
+main h2 {
+    background-color: #65d1e5;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+li {
+    margin: 5px;
+}
+
+/* MENU HORIZONTAL */
+
+.menu-horizontal {
+    list-style: none;
+    background-color: #85845c;
+    padding: 15px;
+    display: flex;
+}
+
+.menu-horizontal li {
+    margin: 0;
+}
+
+.menu-horizontal a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu-vertical {
+    list-style: none;
+    padding: 0;
+    width: 90px;
+}
+
+.menu-vertical li {
+    margin: 0;
+}
+
+.menu-vertical a {
+    display: block;
+    background-color: #65e52e;
+    color: white;
+    text-decoration: none;
+    padding: 18px 10px;
+}
+
+.menu-vertical li:nth-child(3) a {
+    background-color: red;
+}
+
+.ejercicio3 {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.bloque-div {
+    background-color: rgba(80, 100, 120, 0.8);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bloque-span {
+    background-color: rgba(255, 255, 150, 0.8);
+    padding: 15px;
+}
+
+.bloque-span span {
+    font-weight: bold;
+}

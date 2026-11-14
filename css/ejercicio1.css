@@ -1,12 +1,78 @@
-h2{
-    color: red;
-    font-style:italic;
+
+.caja {
+    border: 1px solid blue;
+    width: 95%;
+    margin: 30px auto;
+    padding: 3px;
 }
 
-img{
-    width: 170px;
-    height: 170px;
+.caja h1 {
+    font-size: 16px;
+}
+
+.caja h2 {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.caja img {
+    width: 100px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
+}
+
+.caja p {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.enlace {
+    background-color: lightgray;
+    border: 1px solid blue;
+    font-size: 8px;
+    padding: 2px;
+}
+.ejercicio2 {
+    background-image: url("../img/flor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+}
+
+.ejercicio2 h2 {
+    text-align: center;
+    color: red;
+}
+
+.contenido-flor {
+    width: 150px;
+    padding: 10px;
+}
+
+.contenido-flor a {
+    background-color: yellow;
+    color: black;
+    padding: 8px;
+}
+
+.contenido-flor pre {
+    font-size: 10px;
+}
+
+.capitulo {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 30px;
+    min-height: 80px;
+}
+
+.capitulo a {
+    background-color: white;
+    font-size: 10px;
+    color: black;
 }
