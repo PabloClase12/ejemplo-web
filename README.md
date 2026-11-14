@@ -23,5 +23,4 @@ La página contiene diferentes apartados y ejercicios para aprender a utilizar H
 ## Web publicada
 
 Puedes visitar mi página web en el siguiente enlace:
-
-[PEGA AQUÍ EL ENLACE DE TU WEB PUBLICADA]
+[https://pabloclase12.github.io/ejemplo-web/]
